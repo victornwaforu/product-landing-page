@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    max-width: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+}
+
+.nav-link {
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    margin: 0 20px;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+    position: fixed;
+    top: 55px;
+    right: 0px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+.container {
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.btn {
+    background-color: green;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px lightgreen;
+    position: relative;
+    display: inline-block;
+    transition: all 0.1s ease;
+    cursor: pointer;
+}
+
+.btn:active {
+    box-shadow: 0 0 0 green;
+    transform: translate(2px, 2px);
+}
+
+.grid {
+    display: flex;
+  }
+
+  .feature {
+    width: 30%;
+    margin: 0 1.66%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+    background: green;
+    color: white;
+  }
+
+  .feature h3 {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+
+  .feature p {
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .feature i {
+    font-size: 30px;
+    color: white;
+    margin-top: 15px;
+  }
+
+  section h3 {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  #mine {
+    text-align: center;
+  }
+
+  h4 {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+  }
+
+  footer {
+    margin-top: 30px;
+    background-color: green;
+  }
+  
+  footer > ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer > ul > li {
+    padding: 0 10px;
+    color: transparent;
+  }
+  
+  footer > small {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: white;
+  }
+
+  li, a {
+    color: white;
+  }
+
+  input[value="Get Started"] {
+    color: white;
+  }
+
+  input[id="email"] {
+    width: 280px;
+    height: 28px;
+    resize: none;
+  }
+
+  #victor {
+    padding-top: 100px;
+  }
